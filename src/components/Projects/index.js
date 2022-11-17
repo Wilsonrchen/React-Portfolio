@@ -1,7 +1,6 @@
 import "./index.css";
 import AnimatedLetters from "../AnimatedLetters";
 import { useState } from "react";
-import Loader from "react-loaders";
 
 import Coffee from "../../assets/images/projects/coffeeclicker.PNG";
 import Pupper from "../../assets/images/projects/puppybowl.PNG";
@@ -22,7 +21,6 @@ const Projects = () => {
               strArray={titleArray}
               idx={15}
             />
-            <Loader type="pacman" className="Pacman" />
           </h1>
           <div className="cardContainer">
             <ul className="cards">
