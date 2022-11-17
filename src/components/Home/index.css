@@ -1,0 +1,104 @@
+.home-page .text-zone {
+  position: absolute;
+  left: 10%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50%;
+  max-height: 95%;
+}
+.home-page h1 {
+  color: #fffffa;
+  font-size: 53px;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+.home-page h1::before {
+  content: "<h1>";
+  font-family: "La Belle Aurore";
+  color: sandybrown;
+  font-size: 18px;
+  position: absolute;
+  margin-top: -40px;
+  left: 15px;
+  opacity: 0.8;
+}
+.home-page h1::after {
+  content: "</h1>";
+  font-family: "La Belle Aurore";
+  color: sandybrown;
+  font-size: 18px;
+  position: absolute;
+  margin-top: 18px;
+  margin-left: 20px;
+  -webkit-animation: fadeIn 6s 3.8s backwards;
+  animation: fadeIn 6s 3.8s backwards;
+}
+.home-page h1 img {
+  width: 70px;
+  margin-left: 10px;
+  opacity: 0;
+  height: auto;
+  -webkit-animation: rotateIn 1s linear both;
+  animation: rotateIn 1s linear both;
+  -webkit-animation-delay: 1.4s;
+  animation-delay: 1.4s;
+}
+.home-page h2 {
+  color: #8d8d8d;
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: sans-serif;
+  letter-spacing: 3px;
+  -webkit-animation: fadeIn 1s 1.8s backwards;
+  animation: fadeIn 1s 1.8s backwards;
+}
+.home-page .flat-button {
+  color: sandybrown;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 4px;
+  font-family: sans-serif;
+  text-decoration: none;
+  padding: 10px 18px;
+  border: 1px solid sandybrown;
+  margin-top: 25px;
+  float: left;
+  -webkit-animation: fadeIn 1s 1.8s backwards;
+  animation: fadeIn 1s 1.8s backwards;
+  white-space: nowrap;
+}
+.home-page .flat-button:hover {
+  background: sandybrown;
+  color: cornsilk;
+}
+
+.logo-container {
+  z-index: 0;
+  width: 400px;
+  height: 600px;
+  position: absolute;
+  top: 0;
+  right: 15%;
+  opacity: 0.2;
+}
+
+.solid-logo {
+  position: absolute;
+  top: auto;
+  right: auto;
+  bottom: auto;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.solid-selfie {
+  border-radius: 50%;
+  margin-left: 10px;
+  bottom: 0;
+  right: 0;
+  width: 30%;
+  z-index: 1;
+}

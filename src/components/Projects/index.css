@@ -1,0 +1,45 @@
+.Pacman {
+  top: 0;
+  position: absolute;
+  right: 0;
+}
+
+.container {
+  width: 100%;
+  will-change: contents;
+  height: 90%;
+  min-height: 566px;
+  position: absolute;
+  opacity: 0;
+  top: 5%;
+  margin: 0 auto;
+  z-index: 1;
+  overflow-y: scroll;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+
+.card {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  font-family: "Roboto";
+}
+.img {
+  width: 180px;
+  height: 180px;
+  box-shadow: 0 0 20px 0 lightyellow;
+  background-color: grey;
+  padding: 2px;
+  margin: 15px;
+}

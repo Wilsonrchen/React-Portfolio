@@ -1,0 +1,190 @@
+.container {
+  width: 100%;
+  will-change: contents;
+  height: 90%;
+  min-height: 566px;
+  position: absolute;
+  opacity: 0;
+  top: 5%;
+  margin: 0 auto;
+  z-index: 1;
+  overflow-y: scroll;
+}
+
+.about-page .text-zone,
+.projects-page .text-zone,
+.contact-page .text-zone {
+  left: 10%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 60%;
+  vertical-align: middle;
+  max-height: 90%;
+}
+.about-page h1,
+.projects-page h1,
+.contact-page h1 {
+  font-size: 53px;
+  font-family: "Roboto";
+  font-weight: 400;
+  margin-top: 0;
+  position: relative;
+  left: 10%;
+  color: sandybrown;
+}
+.about-page h1::before,
+.projects-page h1::before,
+.contact-page h1::before {
+  content: "<h1>";
+  font-family: "La Belle Aurore";
+  font-size: 18px;
+  position: absolute;
+  margin-top: -10%;
+  left: -10px;
+  opacity: 0.6;
+  line-height: 108px;
+}
+.about-page h1::after,
+.projects-page h1::after,
+.contact-page h1::after {
+  content: "</h1>";
+  font-family: "La Belle Aurore";
+  font-size: 18px;
+  line-height: 18px;
+  position: absolute;
+  left: -30px;
+  bottom: -20px;
+  margin-left: 20px;
+  opacity: 0.6;
+}
+.about-page .info,
+.projects-page .info,
+.contact-page .info {
+  font-style: 13px;
+  color: #fff;
+  font-family: sans-serif;
+  font-weight: 300;
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+  -webkit-animation: pulse 1s;
+  animation: pulse 1s;
+}
+.about-page h2,
+.projects-page h2,
+.contact-page h2 {
+  font-family: "Roboto";
+}
+.about-page h3,
+.projects-page h3,
+.contact-page h3 {
+  font-family: "Roboto";
+}
+
+.timeInfo {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  top: -25px;
+}
+
+.stage-cube-cont {
+  width: 35%;
+  height: 50%;
+  top: -50px;
+  padding-top: 18%;
+  margin-left: 0;
+  position: absolute;
+  right: 0;
+  overflow: hidden;
+}
+
+.cubespinner {
+  -webkit-animation-name: spincube;
+  animation-name: spincube;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-duration: 12s;
+  animation-duration: 12s;
+  transform-style: preserve-3d;
+  transform-origin: 100px 100px 0;
+  margin-left: calc(50% - 100px);
+}
+.cubespinner div {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border: 1 px solid #ccc;
+  background: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 20px 0 lightyellow;
+}
+.cubespinner .face1 {
+  transform: translateZ(100px);
+}
+.cubespinner .face2 {
+  transform: rotateY(90deg) translateZ(100px);
+}
+.cubespinner .face3 {
+  transform: rotateY(90deg) rotateX(90deg) translateZ(100px);
+}
+.cubespinner .face4 {
+  transform: rotateY(180deg) rotateZ(90deg) translateZ(100px);
+}
+.cubespinner .face5 {
+  transform: rotateY(-90deg) rotateZ(90deg) translateZ(100px);
+}
+.cubespinner .face6 {
+  transform: rotateX(-90deg) translateZ(100px);
+}
+
+@-webkit-keyframes spincube {
+  from,
+  to {
+    transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+  }
+  16% {
+    transform: rotateY(-90deg);
+  }
+  33% {
+    transform: rotateY(-90deg) rotateZ(90deg);
+  }
+  50% {
+    transform: rotateY(-180deg) rotateZ(90deg);
+  }
+  66% {
+    transform: rotateY(-270deg) rotateZ(90deg);
+  }
+  83% {
+    transform: rotateY(-90deg) rotateZ(90deg);
+  }
+}
+
+@keyframes spincube {
+  from,
+  to {
+    transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+  }
+  16% {
+    transform: rotateY(-90deg);
+  }
+  33% {
+    transform: rotateY(-90deg) rotateZ(90deg);
+  }
+  50% {
+    transform: rotateY(-180deg) rotateZ(90deg);
+  }
+  66% {
+    transform: rotateY(-270deg) rotateZ(90deg);
+  }
+  83% {
+    transform: rotateY(-90deg) rotateZ(90deg);
+  }
+}
