@@ -40,3 +40,15 @@
   -webkit-animation-delay: 1s;
   animation-delay: 1s;
 }
+
+@media screen and (max-width: 1200px) {
+  .page {
+    position: initial;
+  }
+
+  .container {
+    position: initial;
+    height: auto;
+    min-height: auto;
+  }
+}

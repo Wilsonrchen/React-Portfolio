@@ -19,7 +19,7 @@ import {
 const Navbar = () => (
   <div className="nav-bar">
     <Link className="logo" to="/">
-      <img src={LogoW} alt="logo" />
+      <img src={LogoW} className="logo-w" alt="logo" />
       <img className="sub-logo" src={LogoSubtitle} alt="wilson" />
     </Link>
 

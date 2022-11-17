@@ -188,3 +188,9 @@
     transform: rotateY(-90deg) rotateZ(90deg);
   }
 }
+
+@media screen and (max-width: 1200px) {
+  .stage-cube-cont {
+    display: none;
+  }
+}

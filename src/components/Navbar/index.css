@@ -100,3 +100,13 @@
   color: #9dffb0;
   font-size: 30px;
 }
+
+@media screen and (max-width: 1200px) {
+  .nav-bar {
+    background: transparent;
+  }
+
+  .logo {
+    opacity: 0;
+  }
+}
