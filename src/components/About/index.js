@@ -73,23 +73,27 @@ const About = () => {
               <span className="timeInfo">June 2021-Febuary 2022</span>
               <ul>
                 <li>
-                  Responsible with building and inspecting Tesla's high end
-                  Model S and X Plaids with over 130 units shipped a day.
+                  Built and assembled high end Model S and X Plaids with over
+                  130 units shipped a day.
                 </li>
                 <li>
-                  Trained new hires throughout the entire Body-In-White assembly
-                  line with over 7 individual stations.
+                  Mentored new hires throughout the assembly line process with
+                  more than seven individual stations.
                 </li>
+
                 <li>
                   Frequently communicated with engineers on repairs and issues
                   in regards to efficiency on the assembly line and broke down
-                  complex technical instructions down to Layman's terms for the
-                  team.
+                  complex technical instructions to be easily understood.
                 </li>
                 <li>
-                  Aided team leads on assigning individual duties and one of the
-                  individuals with the ability to shut down the entire assembly
-                  line for repairs or otherwise.
+                  Furthered responsibilities with aiding team leads on assigning
+                  individual duties, as well as leadership responsibility to
+                  stop the entire assembly line for repairs or otherwise.
+                </li>
+                <li>
+                  Contributed in 2021 record breaking Quarter 3 term with a 79%
+                  increase in cars delivered.
                 </li>
               </ul>
               <h3>China Center Restaurant</h3>
@@ -98,11 +102,17 @@ const About = () => {
               <span className="timeInfo">May 2012-June 2021</span>
               <ul>
                 <li>
-                  Aided in both front and back of house when needed by
-                  performing a variety of tasks including preparing ingredients,
-                  pushing dishes out in a timely manner while also serving
-                  customers and dealing with monetary transactions at the
-                  register.
+                  Oversaw both front and back of house with a fast-paced kitchen
+                  environment.
+                </li>
+                <li>
+                  Created a customer-focused dining experience by anticipating
+                  customer needs, finding solutions for customer concerns, and
+                  collaborating with restaurant staff during busy times.
+                </li>
+                <li>
+                  Catered up to 70 guests per night and ensured all meals are
+                  served on time
                 </li>
               </ul>
               <h2>Skills</h2>
@@ -114,7 +124,7 @@ const About = () => {
               <p>Language: Fluent in Cantonese, Proficiency in Spanish</p>
               <p>
                 Computer Language: Javascript, HTML, CSS, Express, PostgresQL,
-                React
+                React, Prisma, Easy-Peasy, Tailwind, Material UI
               </p>
             </div>
           </div>

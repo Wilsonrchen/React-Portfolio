@@ -6,6 +6,8 @@ import Coffee from "../../assets/images/projects/coffeeclicker.PNG";
 import Pupper from "../../assets/images/projects/puppybowl.PNG";
 import Strangers from "../../assets/images/projects/strangersthings.PNG";
 import TicTac from "../../assets/images/projects/tictactoe.PNG";
+import Fitness from "../../assets/images/projects/Fitness.png";
+import grace from "../../assets/images/projects/graceShopper.png";
 
 const Projects = () => {
   const [letterClass] = useState("text-animate");
@@ -33,7 +35,7 @@ const Projects = () => {
                   >
                     <img className="img" src={Coffee} alt="" />
                   </a>
-                  <p> Made with Javascript</p>
+                  <p> Made with Javascript, HTML, CSS</p>
                 </div>
               </li>
               <li onclick="">
@@ -45,7 +47,7 @@ const Projects = () => {
                   >
                     <img className="img" src={TicTac} alt="" />
                   </a>
-                  <p> Made with Javascript</p>
+                  <p> Made with Javascript, HTML, CSS</p>
                 </div>
               </li>
               <li onclick="">
@@ -69,7 +71,34 @@ const Projects = () => {
                   >
                     <img className="img" src={Strangers} alt="" />
                   </a>
-                  <p>Made with React </p>
+                  <p>Made with React, PostgreSQL </p>
+                </div>
+              </li>
+              <li onclick="">
+                <div className="card">
+                  <h3>Fitness Tracker</h3>
+                  <a
+                    href="https://github.com/Uduru10/Fitness-Trackr"
+                    title="Fitness Tracker"
+                  >
+                    <img className="img" src={Fitness} alt="" />
+                  </a>
+                  <p>Made with React, PostgreSQL </p>
+                </div>
+              </li>
+              <li onclick="">
+                <div className="card">
+                  <h3>Grace Shopper</h3>
+                  <a
+                    href="https://github.com/LunchBoxBandits/graceShopper"
+                    title="Grace Shopper"
+                  >
+                    <img className="img" src={grace} alt="" />
+                  </a>
+                  <p>
+                    Made with React, PostgreSQL, Prisma, Easy-Peasy, Material
+                    UI, Tailwind{" "}
+                  </p>
                 </div>
               </li>
             </ul>
